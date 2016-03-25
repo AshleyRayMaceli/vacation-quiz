@@ -1,3 +1,15 @@
+.quizResult1 {
+  display: none;
+}
+
+.quizResult2 {
+  display: none;
+}
+
+.quizResult3 {
+  display: none;
+}
+
 .jumbotron {
   text-align: center;
   margin-top: 20px;
