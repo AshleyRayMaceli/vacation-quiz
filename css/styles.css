@@ -98,6 +98,13 @@
   font-size: 200%;
 }
 
+.quizResult4 {
+  display: none;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 200%;
+}
+
 .jumbotron {
   text-align: center;
   margin-top: 20px;
@@ -124,4 +131,24 @@
 
 .container {
   text-align: center;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quizResult1 img {
+  height: 50%;
+  width: 50%;
+}
+
+.quizResult3 img {
+  height: 50%;
+  width: 50%;
+}
+
+.quizResult4 img {
+  height: 50%;
+  width: 50%;
 }

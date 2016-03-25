@@ -8,7 +8,7 @@ $(document).ready(function() {
     var userName = $("#nameInput").val();
     $(".userName").text(userName);
     $(".nameEntered").show();
-    $("#quizQuestions").show();
+    $("#quizQuestions").fadeIn("slow");
     $("#name").hide();
   })
 
@@ -36,8 +36,13 @@ $(document).ready(function() {
     $("#takeQuizAgain").show();
     $(".nameEntered").hide();
   }
-  else {
+  else if (totalScore <= 15) {
     $(".quizResult3").show();
+    $("#takeQuizAgain").show();
+    $(".nameEntered").hide();
+  }
+  else {
+    $(".quizResult4").show();
     $("#takeQuizAgain").show();
     $(".nameEntered").hide();
   }
