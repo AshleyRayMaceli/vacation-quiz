@@ -1,5 +1,8 @@
 .quizResult1 {
   display: none;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 .quizResult2 {
@@ -13,6 +16,17 @@
 .jumbotron {
   text-align: center;
   margin-top: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: black;
+  color: white;
+}
+
+#takeQuizAgain {
+  display: none;
 }
 
 .container {
