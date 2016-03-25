@@ -1,4 +1,4 @@
-# _Vacation Quiz!_
+# _Fantasy Vacation Quiz!_
 
 #### _Webpage made with HTML, CSS, Bootstrap, JavaScript and jQuery. Current version last edited: March 25th, 2016_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_Epicodus Intro to Programming Week 2 independent project. Created a vacation quiz webpage._
+_Epicodus Intro to Programming Week 2 independent project. Created a vacation quiz webpage with fictional destinations. With the use of JavaScript, jQuery and branching with if/else statements certain parts of html are hidden or shown based on the user's actions and choices for the quiz._
 
 ## Setup/Installation Requirements
 
@@ -14,7 +14,6 @@ _Epicodus Intro to Programming Week 2 independent project. Created a vacation qu
 * _open index.html file in browser_
 
 ## Known Bugs
-
 
 ## Support and contact details
 
