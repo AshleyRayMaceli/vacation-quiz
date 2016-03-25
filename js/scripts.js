@@ -1,7 +1,18 @@
 $(document).ready(function() {
+  $("form#name").submit(function(event){
+    event.preventDefault();
+
+    var userName = $("#nameInput").val();
+    $(".userName").text(userName);
+    $(".nameEntered").show();
+    $("#quizQuestions").show();
+    $("#name").hide();
+  })
+
   $("form#quizQuestions").submit(function(event){
   event.preventDefault();
 
+  $("#name").hide();
   $("#quizQuestions").hide();
 
   var question1answer = parseInt($("input:radio[name=question1answer]:checked").val());
@@ -15,14 +26,17 @@ $(document).ready(function() {
   if (totalScore <= 5) {
     $(".quizResult1").show();
     $("#takeQuizAgain").show();
+    $(".nameEntered").hide();
   }
   else if (totalScore <= 10) {
     $(".quizResult2").show();
     $("#takeQuizAgain").show();
+    $(".nameEntered").hide();
   }
   else {
     $(".quizResult3").show();
     $("#takeQuizAgain").show();
+    $(".nameEntered").hide();
   }
   });
 });

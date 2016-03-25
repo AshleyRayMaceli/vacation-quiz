@@ -15,6 +15,23 @@
       </div>
     </div>
 
+<!-- Form for Name entry starts -->
+    <div class="container">
+      <form id="name">
+        <h1>Hello! Want to find out where your magical vacation should be? Take this quiz! First, tell me your name please.</h1>
+        <div class="form-group">
+          <label for="nameInput">Name: </label>
+          <input id ="nameInput" class="form-control" type="text">
+        </div>
+        <div class="button">
+          <button type="submit" class="btn">Let's Get Started!</button>
+        </div>
+      </form>
+        <div class="nameEntered">Let's find out where you should be relaxing, <span class="userName"></span>!!!!</div>
+    </div>
+<!-- Form for Name entry ends -->
+
+
     <div class="container">
       <form id="quizQuestions">
 <!-- Question 1 starts-->
@@ -123,12 +140,13 @@
         </div>
 
 <!-- Question 5 ends-->
-
       <div class="button">
         <button type="submit" class="btn">Submit</button>
       </div>
-      </form>
-<!-- Output starts -->
+    </form>
+<!-- Outputs start -->
+      <!-- <div class="nameEntered">Welcome <span class="userName"><span>!</div> -->
+
       <div class="quizResult1">Vacation Spot 1</div>
       <div class="quizResult2">Vacation Spot 2</div>
       <div class="quizResult3">Vacation Spot 3</div>
@@ -137,7 +155,7 @@
         <a href="index.html" class="btn btn-info" role="button">Take Quiz Again</a>
         <!-- <button type="submit" class="btn">Take the quiz again!</button> -->
       </div>
-<!-- Output ends -->
+<!-- Outputs end -->
     </div>
   </body>
 </html>

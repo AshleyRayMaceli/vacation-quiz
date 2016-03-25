@@ -1,4 +1,12 @@
+.nameEntered {
+  display: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
+
 #quizQuestions {
+  display: none;
   margin-top: 20px;
   margin-bottom: 20px;
 }
