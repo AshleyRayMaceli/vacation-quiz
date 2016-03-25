@@ -1,3 +1,57 @@
+#quizQuestions {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#question1 {
+  border-color: black;
+  border-style: solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+#question2 {
+  border-color: black;
+  border-style: solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+#question3 {
+  border-color: black;
+  border-style: solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+#question4 {
+  border-color: black;
+  border-style: solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+#question5 {
+  border-color: black;
+  border-style: solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
 .quizResult1 {
   display: none;
   margin-top: 40px;
@@ -7,10 +61,16 @@
 
 .quizResult2 {
   display: none;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 .quizResult3 {
   display: none;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 .jumbotron {
