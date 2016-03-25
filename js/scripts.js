@@ -2,6 +2,9 @@ $(document).ready(function() {
   $("form#name").submit(function(event){
     event.preventDefault();
 
+    // $(".userName").text(userName.toUpperCase());
+    // capitalized first letter in CSS file instead
+
     var userName = $("#nameInput").val();
     $(".userName").text(userName);
     $(".nameEntered").show();
