@@ -26,6 +26,7 @@
 #question1 {
   border-color: black;
   border-style: solid;
+  border-radius: 25px;
   padding: 30px;
   margin-left: 250px;
   margin-right: 250px;
@@ -36,6 +37,7 @@
 #question2 {
   border-color: black;
   border-style: solid;
+  border-radius: 25px;
   padding: 30px;
   margin-top: 30px;
   margin-left: 250px;
@@ -47,6 +49,7 @@
 #question3 {
   border-color: black;
   border-style: solid;
+  border-radius: 25px;
   padding: 30px;
   margin-top: 30px;
   margin-left: 250px;
@@ -58,6 +61,7 @@
 #question4 {
   border-color: black;
   border-style: solid;
+  border-radius: 25px;
   padding: 30px;
   margin-top: 30px;
   margin-left: 250px;
@@ -69,6 +73,7 @@
 #question5 {
   border-color: black;
   border-style: solid;
+  border-radius: 25px;
   padding: 30px;
   margin-top: 30px;
   margin-left: 250px;
@@ -105,9 +110,43 @@
   font-size: 200%;
 }
 
+.quizResult5 {
+  display: none;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.quizResult1 h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.quizResult2 h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.quizResult3 h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.quizResult4 h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.quizResult5 h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
 .jumbotron {
   text-align: center;
   margin-top: 20px;
+  text-shadow: 10px 10px 10px #33ccff;
+  color: darkgrey;
 }
 
 .btn {
@@ -149,6 +188,11 @@ img {
 }
 
 .quizResult4 img {
+  height: 50%;
+  width: 50%;
+}
+
+.quizResult5 img {
   height: 50%;
   width: 50%;
 }

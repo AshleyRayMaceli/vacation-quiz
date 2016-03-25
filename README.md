@@ -10,10 +10,12 @@ _Epicodus Intro to Programming Week 2 independent project. Created a vacation qu
 
 ## Setup/Installation Requirements
 
-* _Go to proper GitHub Repository on https://github.com/AshleyRayMaceli/portfolio_
+* _View Fantasy Vacation Quiz in action by visiting _
 * _open index.html file in browser_
 
 ## Known Bugs
+
+_When name is entered in lowercase letters the name will be returned with the first letter capitalized. If uppercase letters are inputed, they will be returned but the first letter will be capitalized. Trying to find a way to change the first character (at index 0) to upper case and the rest to lower case._
 
 ## Support and contact details
 

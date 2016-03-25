@@ -41,8 +41,13 @@ $(document).ready(function() {
     $("#takeQuizAgain").show();
     $(".nameEntered").hide();
   }
-  else {
+  else if (totalScore <= 20) {
     $(".quizResult4").show();
+    $("#takeQuizAgain").show();
+    $(".nameEntered").hide();
+  }
+  else {
+    $(".quizResult5").show();
     $("#takeQuizAgain").show();
     $(".nameEntered").hide();
   }
